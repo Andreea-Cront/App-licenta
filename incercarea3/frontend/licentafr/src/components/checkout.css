@@ -1,0 +1,100 @@
+/* checkout.css */
+
+/* Stiluri pentru containerul principal */
+.ct {
+    display: grid;
+    grid-template-columns: 25% 1px 74%; /* Definim coloanele și linia verticală */
+    color: grey; /* Textul va fi gri */
+    margin: 0 auto;
+    min-height: 10vh;
+    justify-content: center;
+    height: 100%;
+}
+  
+
+  .left-ct {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Aliniere text la stânga */
+    /* margin-top: 100px; */
+    padding-left: 35px;
+    padding-right: 35px;
+    border-style: solid;
+   border-right-color: rgba(184, 184, 184, 0.866);
+   border-top-color: #f6f6f6;
+   border-bottom-color: #f6f6f6;
+   border-left-color: #f6f6f6;
+
+   border-right-width: thin;
+    background-color:#f6f6f6;
+    box-shadow:#f9b17a;
+    background: url('fundal.jpg') no-repeat center center; /* Adaugă imaginea de fundal */
+  background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+
+  }
+
+    /* Stiluri pentru liniile verticale */
+
+  
+  /* Stiluri pentru conținutul din partea dreaptă */
+  .right-ct {
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spațiu între elementele verticale */
+    width: 1080px;
+  height: 100%;
+  
+}
+  
+  /* Stiluri pentru titlul */
+  /* .tit{
+    font-size: 45px;
+    margin-bottom: 0px;
+    color: #f9b17a;
+  } */
+  .addf{
+    margin-top: 0px;
+  }
+  .scris {
+    color: #f9b17a;
+    font-size: 30px;
+  }
+
+  .service-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .servicename{
+   text-align: left;
+   /* width: 45%; */
+    
+  }
+  
+  .serviceprice {
+  text-align: right;
+  /* width: 45%; */
+}
+  .check{
+    margin-top: -50px;
+    margin-bottom: 90px;
+    font-size: 25px;
+  }
+
+  .DoneIcon{
+    padding-top:auto;
+  }
+
+ .img-container {
+  background-color: white;
+  text-align: right;
+  padding: 20px;
+}
+
+.logo-img {
+  float: right;
+}

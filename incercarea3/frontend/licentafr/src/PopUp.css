@@ -1,0 +1,14 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adaugă o umbră pentru a evidenția pop-up-ul */
+  }
+  
+  .popup-inner {
+    padding: 20px;
+  }
+  

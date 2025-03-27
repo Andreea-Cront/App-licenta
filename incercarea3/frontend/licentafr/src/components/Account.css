@@ -1,0 +1,152 @@
+/* Account.css */
+.account {
+  background-image: url('./fundal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.con {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #ffffff; /* Fundalul container-ului */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 15px; /* Adăugăm border radius pentru colțuri rotunjite */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adăugăm umbră pentru un efect de elevare */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.pt-3 {
+  padding-top: 0.75rem !important;
+}
+
+.h1 {
+  font-size: 2.5rem;
+}
+
+.fs-18 {
+  font-size: 1.125rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.col-lg-4 {
+  flex: 0 0 29%; /* Ajustăm lățimea coloanei pentru a fi mai mare */
+  max-width: 45%; /* Ajustăm lățimea maximă a coloanei */
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 15px; /* Border radius added here */
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem !important;
+}
+
+.inregistrare {
+  font-size: 40px;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.text-muted2 {
+  color: #6c757d;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.list-green-check ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.buttonp, .buttonspreformular {
+  background-color: #ffffff;
+  color: #f9b17a;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.5s ease;
+  font-size: 20px;
+  text-decoration: none; /* added for Link component */
+  display: inline-block; /* added for button element */
+}
+
+.buttonp:hover, .buttonspreformular:hover {
+  background-color: #f9b17a; 
+  color: #ffffff;
+}

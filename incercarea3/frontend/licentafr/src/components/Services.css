@@ -1,0 +1,151 @@
+
+
+@import '~slick-carousel/slick/slick.css';
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Stiluri pentru clasa section */
+.section {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Stiluri pentru container */
+.containerel {
+  max-width: 100%;
+}
+
+/* Stiluri pentru titlu */
+.ha1 {
+  color: #f9b17a;
+  font-weight:300;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 345px;
+text-align: start;
+}
+
+
+/* Stiluri pentru buton */
+.descopera {
+  background-color: #f9b17a;
+  color: #fff;
+  padding: 0.65rem 2rem;
+  cursor: pointer;
+  transition: #f9b17a 0.3s;
+  margin-left: 70px;
+}
+
+/* Stiluri pentru imagine */
+.imagineService {
+  width: 40%;
+  height: auto; 
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 150px;
+}
+.ha3{
+  font-size: 35px;
+}
+.pOferta{
+  font-size: 20px;
+}
+.imagineMarime{
+  width: 110%;
+}
+.butonOferta{
+  font-size: 20px;
+}
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.carousel-image {
+  width: 0px; 
+  height: auto;
+  opacity: 0.5;
+  transition:
+  width 2s,
+  height 2s,
+  background-color 2s,
+  rotate 2s;
+  background-color: transparent;
+}
+
+.carousel-image.highlighted {
+  opacity: 1;
+  width: 100%;
+  background-color: transparent;
+  transform: scale(1.2);
+}
+
+
+
+.image-wrapper {
+  margin: 0 10px;
+  text-align: center; /* Center the button horizontally */
+}
+
+.carousel-image {
+  width: 0px; 
+  height: auto;
+  opacity: 0.5;
+  transition:
+  width 2s,
+  height 2s,
+  background-color 2s,
+  rotate 2s;
+  background-color: transparent;
+}
+
+.image-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  padding: 7px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.left-arrow {
+  margin-right: 10px;
+}
+
+.right-arrow {
+  margin-left: 10px;
+} 
+.titluBeneficii{
+  font-size: 50px;  
+}
+.review,.cautare,.ceas{
+  background-color: transparent;
+  text-align: center;
+}
+.imagineMarime {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: transparent; /* Ensure the background is transparent */
+}
+
+.col-3 {
+  height: 100%;
+  background-color: transparent; /* Ensure the column background is transparent */
+}

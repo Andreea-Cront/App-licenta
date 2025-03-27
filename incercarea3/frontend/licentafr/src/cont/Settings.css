@@ -1,0 +1,94 @@
+/* //Settings.css */
+.page-containerp {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('fundal.jpg') repeat center center; /* Adaugă imaginea de fundal */
+  background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+  position: relative;
+}
+  
+  .profile-pagep {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Umbra cutiei */
+    border-radius: 10px; /* Colțuri rotunjite */
+    background-color: #fff; /* Culoarea de fundal a containerului */
+    padding: 20px; /* Spațiu interior */
+    width: 1000px; /* Lățimea containerului */
+    height: 570px;
+    
+  }
+  
+  .left-space1 {
+    width: 200px; /* Lățimea spațiului liber */
+    display: flex;
+    flex-direction: column; /* Afișează butoanele unul sub altul */
+    align-items: flex-start; /* Aliniază butoanele la stânga */
+    padding-right: 40px; /* Spațiu mai mare între butoane și conținut */
+    border-style: solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #c1bfbf;
+    border-bottom-color: transparent;
+    border-right-width:thin;
+  }
+  
+  .sidebar-button1 {
+    margin-top: 20px; /* Margine superioară pentru a poziționa butoanele mai jos */
+    padding: 10px 20px; /* Spațiu interior al butoanelor */
+    font-size: 16px; /* Mărimea fontului */
+    background-color: #f9b17a; /* Culoarea de fundal a butoanelor */
+    color: white; /* Culoarea textului */
+    border: none; /* Fără border */
+    border-radius: 10px; /* Colțuri rotunjite */
+    cursor: pointer; /* Cursor pointer pentru butoane */
+  }
+  .sidebar-button2 {
+    margin-top: 20px; /* Margine superioară pentru a poziționa butoanele mai jos */
+    padding: 1px 20px; /* Spațiu interior al butoanelor */
+    font-size: 20px; /* Mărimea fontului */
+    color: #f9b17a; /* Culoarea textului */
+    font-weight:550;
+    border: none; /* Fără border */
+    border-radius: 10px; /* Colțuri rotunjite */
+    cursor: pointer; /* Cursor pointer pentru butoane */
+  
+  }
+  
+  .sidebar-button1:hover {
+    background-color:white; /* Culoare la hover */
+  }
+  
+  .content1 {
+    flex: 1;
+    padding-left: 40px; /* Spațiu interior pentru a muta conținutul spre dreapta */
+  }
+  
+  .h1 {
+    margin-left: 10px;
+    text-align: left; /* Aliniaza titlul la stanga */
+    margin-bottom: 20px; /* Spațiu sub titlu */
+  }
+
+  
+ 
+  .confirmPassword label,
+  .newPassword label {
+    margin-right: 20px; /* Spațiu între text și input */
+    margin-bottom: 10px; /* Spațiu între rânduri */
+    font-size: 17px;
+  
+}
+  
+  .newPassword label {
+    font-size: 17px;
+    margin-right: 60px; /* Spațiu între text și input */
+  }
+  
+  input[type="password"] {
+    font-size: 17px;
+    padding: 3px;
+    width: auto;
+  }
+  

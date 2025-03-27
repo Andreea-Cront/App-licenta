@@ -1,0 +1,5 @@
+.submitOrder{
+    background: url('fundal.jpg') no-repeat center center; /* Adaugă imaginea de fundal */
+    background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+  
+}

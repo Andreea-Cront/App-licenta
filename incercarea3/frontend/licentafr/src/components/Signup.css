@@ -1,0 +1,72 @@
+/* Signup.css */
+.signup-container {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('fundal.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+    color: red;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.create-account-link {
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    text-align: center;
+}
+
+.signup-button {
+    background-color: #f9b17a;
+    color: white;
+}
+
+.signup-button:hover {
+    background-color: #ffffff;
+}
+
+.go-back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.arrow-icon {
+    width: 24px;
+    height: 24px;
+    color: #000;
+}
+
+.label-full-width {
+    display: block;
+    width: 100%;
+}

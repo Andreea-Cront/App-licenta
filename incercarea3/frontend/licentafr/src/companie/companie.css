@@ -1,0 +1,292 @@
+/* //Orders.css */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('fundal.jpg') repeat center center; /* Adaugă imaginea de fundal */
+  background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+  position: relative;
+}
+  
+  .profile-page {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Umbra cutiei */
+    border-radius: 10px; /* Colțuri rotunjite */
+    background-color: #fff; /* Culoarea de fundal a containerului */
+    padding: 20px; /* Spațiu interior */
+    width: 1100px; /* Lățimea containerului */
+    margin-top: 70px;
+    height: 100%;
+  }
+  
+  .left-space {
+    width: 300px; /* Lățimea spațiului liber */
+    display: flex;
+    flex-direction: column; /* Afișează butoanele unul sub altul */
+    align-items: flex-start; /* Aliniază butoanele la stânga */
+    padding-right: 40px; /* Spațiu mai mare între butoane și conținut */
+    border-style: solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #c1bfbf;
+    border-bottom-color: transparent;
+    border-bottom-width:thin;
+    border-right-width:thin;
+  }
+  
+  .sidebar-buttonC {
+    margin-top: 20px; /* Margine superioară pentru a poziționa butoanele mai jos */
+    padding: 1px 20px; /* Spațiu interior al butoanelor */
+    font-size: 20px; /* Mărimea fontului */
+    color: #f9b17a; /* Culoarea textului */
+    font-weight:100PX;
+    border: none; /* Fără border */
+    border-radius: 10px; /* Colțuri rotunjite */
+    cursor: pointer; /* Cursor pointer pentru butoane */
+  }
+  
+  .sidebar-button:hover {
+    background-color:white; /* Culoare la hover */
+  }
+  
+  .content {
+    flex: 1;
+    padding-left: 40px; /* Spațiu interior pentru a muta conținutul spre dreapta */
+ 
+  }
+  .contentPostareServicii{
+    max-width: 570px;
+    padding-top: 70px; 
+    padding-bottom: 100px; 
+    margin: 0 auto;
+    align-items: center
+  }
+  .formularPostareServicii{
+  margin-left: 100px;
+    width: 400px;
+    height: auto;
+  }
+  
+  .margineJos{
+    height: auto;
+  }
+  .h3 {
+    margin-left: 10px;
+    text-align: left; /* Aliniaza titlul la stanga */
+    margin-bottom: 20px; /* Spațiu sub titlu */
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center; /* Aliniaza conținutul la stanga */
+  }
+  
+  .profile-picture {
+    margin-bottom: 10px;
+
+  }
+  
+  .avatar-container {
+    width: 200px; /* Ajustează dimensiunea dorită pentru avatar */
+    height: 200px; /* Asigură că containerul este un pătrat */
+    overflow: hidden;
+    cursor: pointer; /* Săgeată de mână pentru indicarea acțiunii de clic */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.avatar {
+  width: 100%; /* Asigură că imaginea se potrivește complet în container */
+  height: 100%; /* Asigură că imaginea se potrivește complet în container */
+  object-fit: cover; /* Pentru a asigura că imaginea nu este deformata și este centrata */
+}
+  
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+  input[type="text"],
+  input[type="date"], 
+  input[type="tel"] {
+    font-size: 14px; /* Mărimea fontului */
+    padding: 3px; /* Spațiu interior */
+  }
+
+.profile-container ul li {
+  margin-bottom: 20px;
+}
+
+.logout-buttonCompanie{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 570px;
+} 
+.spreConectare{
+  background-color: transparent;
+}
+
+.confirmation-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.confirmation-dialog p {
+  margin-bottom: 20px;
+}
+
+.confirmation-dialog button {
+  margin-right: 10px;
+}
+/* veziOferte.css */
+/* veziOferte.css */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  width: 400px; /* Am mutat width aici */
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  width: 20%;
+  background-color: #f9b17a;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #fff;
+  color: #f9b17a;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between; /* Asează elementele pe capetele opuse */
+  background: url('fundal.jpg') repeat center center; /* Adaugă imaginea de fundal */
+  background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+  
+}
+
+.left, .right {
+  flex: 1; /* Ocupă spațiu flexibil */
+}
+.left{
+  text-align: left;
+  font-size: 20px;
+}
+.right {
+  text-align: right; /* Aliniază textul la dreapta */
+}
+
+.details {
+  flex: 4; 
+
+}
+.descriere{
+  text-align: left;
+}
+.serviciuFinalizat{
+color: #f9b17a;
+}
+.CalendarMonthIcon{
+color:#f9b17a;
+size: 10px;
+}
+.finalizat{
+  font-size: 20px;
+}
+.h6{
+  text-align: left;
+  margin-left: 30px;
+}
+
+.calendar-section {
+  margin-top: 20px;
+}
+
+.add-interval-button {
+  background-color: #f9b17a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.add-interval-button:hover
+ {
+  background-color: #fff;
+  color: #f9b17a;
+}
+.remove-interval-button {
+  background-color: transparent;
+  color: #f9b17a; /* culoarea butonului */
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: underline; /* sublinierea textului butonului */
+}
+
+.remove-interval-button:hover {
+  color: #f9b17a; /* culoarea butonului la hover */
+}
+.remove-interval-button {
+  margin-top: 20px; /* Margine superioară pentru a poziționa butoanele mai jos */
+  padding: 1px 20px; /* Spațiu interior al butoanelor */
+  font-size: 20px; /* Mărimea fontului */
+  color: #f9b17a; /* Culoarea textului */
+  font-weight:550;
+  border: none; /* Fără border */
+  border-radius: 10px; /* Colțuri rotunjite */
+  cursor: pointer; /* Cursor pointer pentru butoane */
+
+}
+
+.remove-interval-button:hover {
+  background-color: #fff;
+  color:#f9b17a
+}

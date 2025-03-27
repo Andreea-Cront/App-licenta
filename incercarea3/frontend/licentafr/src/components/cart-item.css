@@ -1,0 +1,58 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+
+}
+
+.cartItem img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  background-color: transparent;
+
+}
+
+.description {
+  flex: 1;
+  background-color: transparent;
+
+}
+
+.dateSelection {
+  margin-top: 10px;
+  background-color: transparent;
+
+}
+
+.datePickerContainer {
+  margin-top: 10px;
+  background-color: transparent;
+
+}
+
+.datePickerContainer input[type="date"] {
+  margin-right: 10px;
+  background-color: transparent;
+
+}
+
+button {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #f9b17a;
+  width: auto;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  background-color: transparent;
+
+}
+
+.DateRangeIcon{
+  color: #f9b17a;
+  background-color: transparent;
+
+}

@@ -1,0 +1,102 @@
+/* Home.css */
+
+.Homecontinut {
+  width:100%;
+  /* margin: 10rem auto; */
+  height:570px;
+
+  }
+  
+  .home-separator {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .separator1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-image: url('fundal.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+
+  .cta-buttons{
+    color:black;
+  }
+  .cta-buttons:hover{
+    background-color: #f6f6f6; 
+    color: black; 
+    cursor: pointer;
+    font-size:25px;
+    border-radius: 20px;
+    border-color: black;
+  }
+  .text-container {
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+  color:black;
+  font-size: 25px;
+  margin-left: 100px;
+  
+  }
+  .BineAiVenit{
+    align-items: left;
+  }
+  .numere-container {
+    display: flex;
+justify-content: center; 
+ }
+  
+  .numar {
+    margin-right: 20px; /* Adaugă spațiu între numere */
+  }
+  
+  
+  .image-container {
+    flex: 2;
+    text-align: center;
+    box-sizing: border-box; 
+    background-color: transparent;
+  }
+  
+  .imagineaHome {
+    max-width: 1000px; 
+    height: auto;
+    width: 70%;
+    background-color: transparent;
+    
+  }
+  .cumFunctioneaza{
+    text-align: left;
+  }
+  .separator2 {
+    position: relative;
+    padding: 100px; 
+  }
+  
+  .separator2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('C:\xampp\htdocs\incercarea3\frontend\licentafr\src\components\04-2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px); /* Adjust the blur amount as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+  }
+  
+  .separator2-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is in front of the pseudo-element */
+  }
+
+
+  .separator3{
+    margin-top: 100px;
+  }

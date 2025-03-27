@@ -1,0 +1,117 @@
+/* //Orders.css */
+.page-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('fundal.jpg') repeat center center; /* Adaugă imaginea de fundal */
+  background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+  position: relative;
+}
+  
+  .profile-page {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Umbra cutiei */
+    border-radius: 10px; /* Colțuri rotunjite */
+    background-color: #fff; /* Culoarea de fundal a containerului */
+    padding: 20px; /* Spațiu interior */
+    width: 1000px; /* Lățimea containerului */
+    margin-top: 70px;
+    height: auto;
+  }
+    
+
+  
+  .left-space {
+    width: 200px; /* Lățimea spațiului liber */
+    display: flex;
+    flex-direction: column; /* Afișează butoanele unul sub altul */
+    align-items: flex-start; /* Aliniază butoanele la stânga */
+    padding-right: 40px; /* Spațiu mai mare între butoane și conținut */
+    border-style: solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #c1bfbf;
+    border-bottom-color: transparent;
+
+    border-bottom-width:thin;
+    border-right-width:thin;
+
+    
+  }
+  
+  .sidebar-button {
+    margin-top: 20px; /* Margine superioară pentru a poziționa butoanele mai jos */
+    padding: 10px 20px; /* Spațiu interior al butoanelor */
+    font-size: 16px; /* Mărimea fontului */
+    background-color: #f9b17a; /* Culoarea de fundal a butoanelor */
+    color: white; /* Culoarea textului */
+    border: none; /* Fără border */
+    border-radius: 10px; /* Colțuri rotunjite */
+    cursor: pointer; /* Cursor pointer pentru butoane */
+  }
+  
+  
+  .sidebar-button:hover {
+    background-color:white; /* Culoare la hover */
+  }
+  
+  .content {
+    flex: 1;
+    padding-left: 40px; /* Spațiu interior pentru a muta conținutul spre dreapta */
+  }
+  
+  .h1 {
+    margin-left: 10px;
+    text-align: left; /* Aliniaza titlul la stanga */
+    margin-bottom: 20px; /* Spațiu sub titlu */
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center; /* Aliniaza conținutul la stanga */
+  }
+  
+  .profile-picture {
+    margin-bottom: 10px;
+
+  }
+  
+  .avatar-container {
+    width: 200px; /* Ajustează dimensiunea dorită pentru avatar */
+    height: 200px; /* Asigură că containerul este un pătrat */
+    overflow: hidden;
+    cursor: pointer; /* Săgeată de mână pentru indicarea acțiunii de clic */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .avatar {
+    width: 100%; /* Asigură că imaginea se potrivește complet în container */
+    height: 100%; /* Asigură că imaginea se potrivește complet în container */
+    object-fit: cover; /* Pentru a asigura că imaginea nu este deformata și este centrata */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="tel"] {
+    font-size: 14px; /* Mărimea fontului */
+    padding: 3px; /* Spațiu interior */
+  }
+  .logout-container {
+    margin-top: auto; /* Plasează containerul de logout în partea de jos */
+  }
+
+.profile-container ul li {
+    margin-bottom: 20px;
+  }
+  

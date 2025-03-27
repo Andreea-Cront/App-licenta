@@ -1,0 +1,31 @@
+/* ApproveService.css */
+
+.aprobare{
+      background: url('fundal.jpg') no-repeat center center; /* Adaugă imaginea de fundal */
+    background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+    color: rgb(110, 108, 108); /* Textul va fi gri */
+    min-height: 100vh;
+    justify-content: center;
+    
+}
+
+
+.aprobareServiciu{
+   border-top-color: rgba(156, 92, 92, 0.866);
+
+}
+.butonAfisareDetalii{
+    font-size: 100%;
+    font-weight:70%;
+}
+.butonAfisareDetalii:hover{
+    background-color: transparent;
+
+}
+.butonAprobare{
+    font-size: 100%;
+    font-weight:70%;
+}
+.butonAprobare:hover{
+    background-color: transparent;
+};

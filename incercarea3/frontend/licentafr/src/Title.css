@@ -1,0 +1,27 @@
+/* src/Title.css */
+
+.container1 {
+    display: flex;
+    align-items: center;
+    background-color: #F8F8F8;
+    margin-top: 5px;
+  }
+  
+  img {
+    width:50px;
+    height: auto;
+    margin-right: 10px; /* Add margin between image and title */
+    background-color: #F8F8F8;
+  }
+  
+  .Title {
+    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+    padding: 0;
+    margin-bottom: 0;
+    color: #ee8331;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;    
+  }
+  

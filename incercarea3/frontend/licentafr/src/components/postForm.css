@@ -1,0 +1,16 @@
+.postareServicii{
+    max-width: 800px;
+    padding-top: 70px; 
+    padding-bottom: 100px; 
+    margin: 0 auto;
+    text-align: left; 
+}
+
+.submitul{
+    font-size: 30px;
+}
+
+.margineJos{
+    border-bottom-color: rgba(184, 184, 184, 0.866);
+    border-bottom-width:thin;
+}

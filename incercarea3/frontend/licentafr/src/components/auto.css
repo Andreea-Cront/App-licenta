@@ -1,0 +1,139 @@
+/* auto.css */
+
+/* Stilizare pentru containerul principal */
+.auto-container {
+  /* text-align: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  justify-content: center;
+
+}
+.titlul{
+  margin-top: 20px;
+  position: center;
+}
+/* Stilizare pentru fiecare chenar de serviciu auto */
+.auto-service {
+  display: flex;
+  flex-direction: column; /* Schimbați la row dacă doriți ca elementele să fie orizontale */
+  align-items: center; /* Centrați elementele pe axa transversală (verticală) */
+  justify-content: center; /* Centrați elementele pe axa principală (orizontală) */
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  
+}
+
+.butonrecenzii{
+  background-color: transparent;
+}
+.cart-icon-container {
+  position:relative;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  float: right;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  margin-left: -100px;
+}
+    
+  /* auto.css */
+  .recenzii{
+    color: #f9b17a;
+  }
+
+  .TitluRecenzii{
+    border-style: solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #c1bfbf;
+    border-bottom-width:thin;
+  }
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: url('fundal.jpg') repeat center center; /* Adaugă imaginea de fundal */
+  background-size: cover; /* Ajustează dimensiunea imaginii pentru a acoperi întregul container */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.close-buttonA {
+  background: #f9b17a;
+  color: white;
+  padding: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.close-buttonA:hover{
+  background-color: transparent;
+}
+
+
+.star {
+  font-size: 35px;
+  color: #ccc; /* Culoarea stelelor goale */
+  margin-right: 1px;
+}
+
+.filled-star {
+  color: #f9b17a; /* Culoarea stelelor pline */
+}
+
+.half-filled-star {
+  position: relative;
+  display: inline-block;
+  width: 0.6em; /* Lățimea jumătății de stea */
+}
+
+.half-filled-star::before {
+  content: "★"; /* Caracterul stelei */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  color: #f9b17a; /* Culoarea stelei pline (jumătatea de stea) */
+  width: 50%; /* Afișează doar jumătate din stea */
+  overflow: hidden; /* Ascunde partea nevizibilă */
+}
+
+.highlighted {
+  color: #f9b17a; /* Culoarea stelelor evidențiate */
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review-header h3 {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.rating-stars {
+  display: flex;
+}
